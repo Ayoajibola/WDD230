@@ -26,7 +26,7 @@
         <ul>
           <li>
             week 1
-            <a href="">Assignment</a>
+            <a href="https://ayoajibola.github.io/WDD230/index.html">Assignment</a>
           </li>
           <li>week 2</li>
           <li>week 3</li>
@@ -58,10 +58,11 @@
     <footer>
       &copy;2021 &bull; Ayo Ajibola &bull; Lagos Nigeria &bull;
       <a href="https://www.byui.edu/online">BYU Online Learning</a>
-      <p id="year">Last Updated</p>
+      <p id="currentDate">Last Updated</p>
     </footer>
   </body>
 </html>
 <script>
-  document.querySelector("year").year = `Last updated ${getDate}`;
+  const fulldate = `dayName ${d.getDate()} ${monthName} ${year}`;
+ p.querySelector("currentDate").innerHTML = "Last updated " + fulldate;
 </script>
