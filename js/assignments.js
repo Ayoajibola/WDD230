@@ -33,5 +33,9 @@ let myDate =
   " " +
   d.getFullYear();
 
-//let currentDate = dayNames[2] + " " + monthNames[3];
-document.querySelector("p").innerHTML = "Last updated " + myDate;
+  let year = d.getFullYear();
+
+
+document.querySelector("p").innerHTML = "Last updated " + document.lastModified;
+
+document.getElementById("lastModified").innerHTML= year;

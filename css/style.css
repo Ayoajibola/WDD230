@@ -1,74 +1,83 @@
-body {
-  max-width: 600px;
-  max-height: 400px;
-  margin: 0 auto;
-  background-color: #ffffff;
-}
 
-main {
-  border: 1px;
-  max-width: 100%;
-  max-height: 100%;
+
+
+
+
+body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 50% 50%;
-  grid-gap: 20px;
-  margin: 0px;
-  padding: 1em;
+  grid-template-rows: 20% 20% 40% 20%;
+  max-width: 600px;
+  max-height: 400px;
+  background-color: #ffffff;
+ margin: 0px auto;
 }
 
-#image {
+img {
+  z-index: 1;
   grid-column: 3/4;
-  grid-row: 1/2;
-  max-width: 100%;
+  grid-row: 1/3;
+  margin: 10px 10px auto auto;
 }
 
 header {
-  border-radius: 20px 20px 0px 0px;
+  grid-column: 1/4;
+  grid-row: 1/2;
+  border-radius: 10px;
   max-width: 100%;
   max-height: 100px;
   background-color: #264054;
-  text-align: center; 
+  text-align: center;
   color: #ffffff;
-  margin: auto;
 }
 
-.main-heading {
+header h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ margin: 10px 200px auto auto;
   grid-column: 1/3;
   grid-row: 1/2;
-  max-width: 100%;
+}
+
+
+.main-heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ text-align: center;
+  grid-column: 1/3;
+  grid-row: 2/3; 
 }
 
 .week-set-1 {
+  margin: 0px auto auto 0px;
+  text-align: center;
+  margin: 0px auto;
   grid-column: 1/2;
-  grid-row: 2/3;
-  margin: 5px;
+  grid-row: 3/4;  
 }
 
 .week-set-2 {
+  margin: 0px auto auto auto;
   grid-column: 2/3;
-  grid-row: 2/3;
-  margin: 5px;
+  grid-row: 3/4;
 }
 
 .week-set-3 {
   grid-column: 3/4;
-  grid-row: 2/3;
-  margin: 5px;
+  grid-row: 3/4;
+  margin: auto;
 }
 
 footer {
-  border-radius: 0px 0px 20px 20px;
+  align-content: center;
+  grid-column: 1/4;
+  grid-row: 4/5;
+  border-radius: 10px;
   max-width: 100%;
-  max-height: 50px;
-  margin: auto;
   color: #ffffff;
   background-color: #264054;
-  padding: 1em;
   text-align: center;
-  
 }
 
 footer a {
-  color: #ffffff
+  margin: auto;
+  color: #ffffff;
 }
