@@ -34,4 +34,4 @@ let myDate =
   d.getFullYear();
 
 //let currentDate = dayNames[2] + " " + monthNames[3];
-document.getElementById("currentDate").innerHTML ="Last updated " + myDate;
+document.querySelector("span").innerHTML ="Last updated " + myDate;
