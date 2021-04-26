@@ -66,5 +66,8 @@ footer {
   padding: 1em;
   text-align: center;
   
-  
+}
+
+footer a {
+  color: #ffffff
 }

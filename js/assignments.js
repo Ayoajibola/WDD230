@@ -24,14 +24,13 @@ let monthNames = [
 
 let d = new Date();
 
-let myDate =
-  d.getDate() +
-  " " +
-  dayNames[d.getDay()] +
-  " " +
-  monthNames[d.getMonth()] +
-  " " +
+let myDate = dayNames[d.getDay()]
+   +
+  ", " +
+   monthNames[d.getMonth()] +
+  " " + d.getDate() + " " +
   d.getFullYear();
 
 //let currentDate = dayNames[2] + " " + monthNames[3];
 document.querySelector("span").innerHTML ="Last updated " + myDate;
+
