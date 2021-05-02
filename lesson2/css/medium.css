@@ -1,9 +1,10 @@
-@media screen and (min-width :32em) {
-    main {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 15% 70% 15%;
-        grid-gap: 10px;
-        align-content: center;
-      }
-}
+@media screen and (min-width :32.5em) {
+  main{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 15% 70% 15%;
+     grid-gap: 10px;
+  }
+  
+   
+  }
