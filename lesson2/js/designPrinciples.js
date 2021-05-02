@@ -35,6 +35,7 @@ let myDate =
 
 let year = d.getFullYear();
 
-document.querySelector("p").innerHTML = "Last updated " + document.lastModified;
+
+document.getElementById("currentDate").innerHTML = "Last updated " + document.lastModified;
 
 document.getElementById("lastModified").innerHTML = year;

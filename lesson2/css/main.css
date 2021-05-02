@@ -1,21 +1,19 @@
-html {
-  background-color: #e6fdff;
-}
-
 body {
   margin: 20px;
 }
 
 header {
+  align-content: center;
   background-color: #30292f;
 }
 
-p {
+div p {
   font-family: "Roboto", "Lato", sans-serif;
 }
 
 h1,
 h2 {
+  align-items: center;
   font-family: "Source Serif Pro", "Kadwa", serif;
 }
 
@@ -26,12 +24,18 @@ header h1 {
 main {
   display: grid;
   grid-template-columns: 1fr;
- 
 }
-
 
 footer {
   text-align: center;
   color: #e6fdff;
   background-color: #30292f;
+}
+
+footer a {
+  color: #e6fdff;
+}
+
+div img {
+  margin: auto;
 }
