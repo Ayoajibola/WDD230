@@ -1,9 +1,7 @@
-@media screen and (max-width :32em) {
-    main {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 15% 70% 15%;
-        grid-gap: 10px;
-       
-      }
+@media screen and (max-width: 64em) {
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  
 }

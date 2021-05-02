@@ -1,10 +1,6 @@
-@media screen and (min-width :32.5em) {
-  main{
-     display: grid;
-     grid-template-columns: 1fr 1fr;
-     grid-template-rows: 15% 70% 15%;
-     grid-gap: 10px;
+@media screen and (min-width: 32.5em) {
+  main {
+    grid-template-columns: 1fr 1fr;
   }
-  
-   
-  }
+ 
+}
