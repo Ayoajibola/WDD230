@@ -3,7 +3,7 @@ body {
 }
 
 header {
-  align-content: center;
+ 
   background-color: #30292f;
 }
 
@@ -22,8 +22,29 @@ header h1 {
 }
 
 main {
+  padding: 10px;
   display: grid;
   grid-template-columns: 1fr;
+}
+
+.lds {
+  border-radius: 20px;
+  background-color: #dcab6b;
+  padding: 10px;
+  margin: 10px;
+}
+
+.macdonalds {
+  border-radius: 20px;
+  background-color: #63a375;
+  padding: 10px;
+  margin: 10px;
+}
+.cnn {
+  border-radius: 20px;
+  background-color: #dcab6b;
+  padding: 10px;
+  margin: 10px;
 }
 
 footer {
