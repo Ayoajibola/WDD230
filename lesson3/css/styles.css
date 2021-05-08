@@ -1,5 +1,14 @@
+main {
+  grid-template-columns: 1fr;
+}
+
+html {
+  height: 100%;
+}
+
 body {
-  height: auto;
+  margin: auto;
+  padding: 0px;
 }
 
 h1,
@@ -10,12 +19,12 @@ h4 {
 }
 
 h1 {
-   
   float: right;
   width: 90%;
   text-align: center;
   margin: 5px 5px auto auto;
 }
+
 
 header nav {
   width: 80%;
@@ -27,8 +36,9 @@ header nav ul {
   float: right;
   list-style: none;
 
-  padding: 5px;
-  margin: auto 2px 2px auto;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
 }
 
 header nav ul li {
@@ -38,7 +48,8 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #D68C45;
+  display: block;
+  color: #d68c45;
   font-style: normal;
   font-weight: normal;
   padding: 10px 5px;
@@ -46,13 +57,11 @@ header nav ul li a {
 }
 
 main {
-    display: grid;
+  display: grid;
 
-  grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: 0px;
   background-color: #cce2a3;
 }
-
 
 p {
   font-size: 1.1em;
@@ -72,7 +81,6 @@ header {
   text-align: center;
   padding: 0px;
 }
-
 
 #sitename {
   margin: 20px;
@@ -105,56 +113,57 @@ table {
 }
 
 #audience {
-    margin: 20px;
-    grid-column: 1/2;
-  }
-  
-  #personas {
-    margin: 20px;
-    grid-column: 2/3;
-  }
-  
-  #scenarios {
-    margin: 20px;
-    grid-column: 3/5;
-  }
-
-  #typo-heading {
-    margin: 20px;
-    grid-column: 1/2;
-  }
-  
-  #typo-paragraph {
-    margin: 20px;
-    grid-column: 2/5;
-  }
-
-  table, th, td {
-    border: 1px solid black;
-  }
-
-  #black{
-    color: #FFFFFF;
-    background: #080F0F;
-} 
-  
-  #white{
-    color: #080F0F;
-    background: #FFFFFF;
+  margin: 20px;
+  grid-column: 1/2;
 }
 
-#tea-green{
-    color: #080F0F;
-    background: #CCE2A3;
-} 
-  
- 
-#persian-orange{
-    color: #FFFFFF;
-    background: #D68C45;
+#personas {
+  margin: 20px;
+  grid-column: 2/3;
 }
 
-#blue{
-    color: #FFFFFF;
-    background: #2E86AB;
+#scenarios {
+  margin: 20px;
+  grid-column: 3/5;
+}
+
+#typo-heading {
+  margin: 20px;
+  grid-column: 1/2;
+}
+
+#typo-paragraph {
+  margin: 20px 20px 250px 20px;
+  grid-column: 2/5;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+#black {
+  color: #ffffff;
+  background: #080f0f;
+}
+
+#white {
+  color: #080f0f;
+  background: #ffffff;
+}
+
+#tea-green {
+  color: #080f0f;
+  background: #cce2a3;
+}
+
+#persian-orange {
+  color: #ffffff;
+  background: #d68c45;
+}
+
+#blue {
+  color: #ffffff;
+  background: #2e86ab;
 }
