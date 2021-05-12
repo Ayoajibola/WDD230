@@ -1,7 +1,5 @@
 @media screen and (min-width:64em){
-    body{
-        background-color: sandybrown;
-    }
+  
 
     main{
         grid-template-columns: 1fr 1fr 1fr 1fr;
