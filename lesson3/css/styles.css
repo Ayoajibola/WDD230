@@ -1,5 +1,7 @@
 main {
-  grid-template-columns: 1fr;
+ 
+  margin: 0px;
+  background-color: #cce2a3;
 }
 
 html {
@@ -56,12 +58,7 @@ header nav ul li a {
   font-size: 1.2em;
 }
 
-main {
-  display: grid;
 
-  margin: 0px;
-  background-color: #cce2a3;
-}
 
 p {
   font-size: 1.1em;

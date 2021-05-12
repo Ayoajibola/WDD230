@@ -1,0 +1,42 @@
+nav{
+    text-align: center;
+    height: 5em;
+    max-width: 100%;
+    background-color: blue;
+}
+
+nav ul{
+    margin: 0;
+	padding: 0;
+    align-content: center;
+    line-height: 3em;
+    text-align: center;
+}
+
+nav ul li {
+    align-items: center;
+    margin: auto;
+    padding: auto;
+}
+
+html {
+    background-color: grey ;
+}
+
+footer{
+    height: 2em;
+    max-width: 100%;
+    background-color: blue;
+    margin: auto 0px 0px 0px;
+}
+
+main{
+    display: grid;
+    max-height: 100%;
+    grid-template-columns: 1fr;
+    
+}
+
+main div{
+    margin: 20px;
+}
