@@ -1,16 +1,47 @@
-#myheader{
-    background: blue;
+nav{
+    background-color: #ccc;
+    
 }
 
-.main-heading{
-    color: chartreuse;
+nav button{
+    margin: 0.2em 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5em;
+    color: #555;
 }
 
-.home-paragraph{
-    background: cyan;
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+   
 }
 
-#my-footer{
-    align-content: center;
-    background: darkblue;
+nav ul li a{
+    display: block;
+    padding: 0.8em 2%;
+    text-decoration: none;
+    color:#000;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+#active{
+    display: block;
+    padding: 0.8em 2%;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(94, 16, 16, 0.2);
+   border-color: solid 1px blue;
+}
+
+.clearfix :after{
+    content: "";
+    display: table;
+    clear: both;
 }

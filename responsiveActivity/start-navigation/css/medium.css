@@ -1,0 +1,19 @@
+@media screen and (min-width: 32.5em) {
+    nav button{
+        display: none;
+    }
+
+    nav ul li{
+        float: left;
+    }
+
+    nav ul li a{
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: 0.8rem 1rem;
+       margin-left: 2%;
+    }
+
+    nav ul.hide{
+        display: block;
+      }
+}

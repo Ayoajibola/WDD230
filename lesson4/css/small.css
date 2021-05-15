@@ -1,0 +1,29 @@
+header {
+  background-color: #2e86ab;
+}
+
+nav {
+  background-color: #d68c45;
+}
+
+nav button {
+  margin: 0.2em 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5em;
+  color: #555;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+main {
+  background-color: #cce2a3;
+}
+
+footer {
+  background-color: #2e86ab;
+}
