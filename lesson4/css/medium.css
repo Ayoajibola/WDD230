@@ -2,4 +2,8 @@
     nav button{
         display: none;
     }
+
+    nav ul li{
+        float: left;
+    }
 }
