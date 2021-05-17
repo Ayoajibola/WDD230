@@ -11,6 +11,10 @@
     float: left;
   }
 
+  nav ul.hide {
+    display: block;
+  }
+
   nav ul li a {
     padding: 1rem 1rem;
     margin: 0px  auto 0px auto;

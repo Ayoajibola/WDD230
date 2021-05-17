@@ -20,7 +20,7 @@ nav ul {
   margin: 0px;
 }
 
-nav ul.hide{
+nav ul.hide {
   display: none;
 }
 
@@ -30,7 +30,6 @@ nav ul li a {
   text-decoration: none;
   color: #000;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
-
 }
 
 nav ul li a:hover {
@@ -50,5 +49,3 @@ footer {
   display: table;
   clear: both;
 }
-
-
