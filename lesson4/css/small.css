@@ -20,6 +20,10 @@ nav ul {
   margin: 0px;
 }
 
+nav ul.hide{
+  display: none;
+}
+
 nav ul li a {
   display: block;
   margin: 0.8em 2%;
