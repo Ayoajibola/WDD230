@@ -3,12 +3,16 @@
     display: none;
   }
 
+  nav ul {
+    text-align: center;
+  }
+
   nav ul li {
     float: left;
   }
 
   nav ul li a {
-    padding: 0.8rem 1rem;
-    margin-left: 2%;
+    padding: 1rem 1rem;
+    margin: 0px  auto 0px auto;
   }
 }
