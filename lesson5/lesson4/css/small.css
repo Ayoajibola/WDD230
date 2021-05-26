@@ -1,0 +1,51 @@
+header {
+  background-color: #2e86ab;
+}
+
+nav {
+  background-color: #d68c45;
+}
+
+nav button {
+  margin: 0.2em 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5em;
+  color: #555;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav ul.hide {
+  display: none;
+}
+
+nav ul li a {
+  display: block;
+  margin: 0.8em 2%;
+  text-decoration: none;
+  color: #000;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+main {
+  background-color: #cce2a3;
+}
+
+footer {
+  background-color: #2e86ab;
+}
+
+.clearfix :after {
+  content: "";
+  display: table;
+  clear: both;
+}
