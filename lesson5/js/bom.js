@@ -15,6 +15,7 @@ button.addEventListener("click", () => {
     li.append(deletebutton);
     output.append(li);
 
+    // Remove initial input after deletebuttion is clicked
     deletebutton.addEventListener("click", function () {
       output.removeChild(li);
       input.focus();
