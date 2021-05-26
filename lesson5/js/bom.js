@@ -4,11 +4,11 @@ const output = document.querySelector(".list");
 
 button.addEventListener("click", () => {
   if (input.value != "") {
-    //Create the elements provided by user in the list.
+    //Create the elements to display user input.
     let li = document.createElement("li");
     let deletebutton = document.createElement("button");
 
-    //Change the value textContent.
+    //Change the value of created elements based on user input.
     li.textContent = input.value;
     deletebutton.textContent = "❌";
 
@@ -16,7 +16,6 @@ button.addEventListener("click", () => {
     output.append(li);
 
     deletebutton.addEventListener("click", function () {
-      // this line of code should use the removeChild() (Links to an external site.) method
       output.removeChild(li);
       input.focus();
     });
