@@ -17,6 +17,41 @@
 
   nav ul li a {
     padding: 1rem 1rem;
-    margin: 0px  auto 0px auto;
+    margin: 0px auto 0px auto;
   }
+
+  .herodiv{
+    width: 100%;
+    position: relative;
+  }
+    
+    .heroImage {
+      width: 700px;
+      align-content: center;
+      position: relative;
+      padding-left: 20px;
+    }
+  
+    .weather-summary {
+     
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      top: 30px;
+      left: 20px;
+    }
+  
+    #banner {
+      display: flex;
+    }
+  
+    .banner-heading {
+      width: 600px;
+      float: right;
+      padding: 0.1em 2em 0.1em 15em;
+    }
+  
+    .forecast{
+      display: flex;
+    }
 }

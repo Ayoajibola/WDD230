@@ -4,13 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <meta
       name="description"
       content="This the weather report for Preston town"
     />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <!--<link rel="stylesheet" href="css/normalize.css" type="text/css">-->
+
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
     <link rel="stylesheet" href="css/small.css" type="text/css" />
     <link rel="stylesheet" href="css/medium.css" type="text/css" />
     <link rel="stylesheet" href="css/large.css" type="text/css" />
@@ -18,9 +20,13 @@
   </head>
   <body>
     <header>
-      <img class="logo-box" src="images/newlogox.jpg" alt="logo image" />
-      <h1>Preston Weather Site</h1>
-      <h3>Your reliable guide</h3>
+      <div id="banner">
+        <img class="logo-box" src="images/newlogox.jpg" alt="logo image" />
+        <div class="banner-heading">
+          <h1>Team Weather Resource Home</h1>
+          <h3>Family and friends for better living</h3>
+        </div>
+      </div>
       <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776;</button>
 
@@ -36,30 +42,83 @@
     </header>
     <main>
       <h2>Preston Idaho</h2>
-      <img class="#" src="images/summitPost.jpg" alt="#" />
-      <div class="summary">
-        <h3>Weather summary</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-          praesentium odio labore nisi aut earum vitae perferendis minus
-          temporibus nostrum unde quaerat, incidunt amet maiores.
-        </p>
+
+      <div class="herodiv">
+        <img
+          class="heroImage"
+          src="images/FranklinCounty.jpg"
+          alt="A picture of Franklin County, Preston"
+        />
+        <section class="weather-summary">
+          <h2>Weather summary</h2>
+          <p>Location: <span id="location">Preston</span></p>
+          <p>Humidity: <span id="humidity">25%</span></p>
+          <p>Wind Speed: <span id="wind-speed">5Km/h NE</span></p>
+        </section>
       </div>
-      <article>
+
+      <div class="five-day">
         <h3>Five Day Forecast</h3>
+        <div class="forecast">
+          <div>
+            <h3>Monday</h3>
+            <p>Temperature: <span>30</span></p>
+            <p>Humidity: <span>25%</span></p>
+            <p>Wind Speed: <span>5Km/h NE</span></p>
+          </div>
+          <div>
+            <h3>Tuesday</h3>
+            <p>Temperature: <span>30</span></p>
+            <p>Humidity: <span>25%</span></p>
+            <p>Wind Speed: <span>5Km/h NE</span></p>
+          </div>
+          <div>
+            <h3>Wednesday</h3>
+            <p>Temperature: <span>30</span></p>
+            <p>Humidity: <span>25%</span></p>
+            <p>Wind Speed: <span>5Km/h NE</span></p>
+          </div>
+          <div>
+            <h3>Thursday</h3>
+            <p>Temperature: <span>30</span></p>
+            <p>Humidity: <span>25%</span></p>
+            <p>Wind Speed: <span>5Km/h NE</span></p>
+          </div>
+          <div>
+            <h3>Friday</h3>
+            <p>Temperature: <span>30</span></p>
+            <p>Humidity: <span>25%</span></p>
+            <p>Wind Speed: <span>5Km/h NE</span></p>
+          </div>
+        </div>
+      </div>
+
+      <article>
         <h3>Article Title</h3>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
-          recusandae molestiae, deserunt repellendus corporis esse!
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+          Culpa aut perspiciatis eligendi aliquam doloribus recusandae 
+          corrupti earum veritatis pariatur, dicta modi facere dignissimos 
+          quidem reprehenderit molestiae veniam excepturi. Minima, alias!
         </p>
-        <img class="#" src="images/usbrGov.jpg" alt="#" />
+        <img class="image-article" src="images/usbrGov.jpg" alt="photo showing weather device" />
       </article>
     </main>
-    <footer>
+    <div class=info>
       <h3>Contact Information</h3>
       <p>Email</p>
       <p>Phone</p>
-      <img class="#" src="images/prestonMap.png" alt="Map of Preston" />
+      <img
+        class="footer-image"
+        src="images/prestonMap.png"
+        alt="Map of Preston"
+      />
+    </div>
+    <footer>
+      &copy; <span id="lastModified"></span> &bull; Ayo Ajibola &bull; Lagos
+      Nigeria &bull;
+      <a href="https://www.byui.edu/online">BYU Online Learning</a>
+      <p id="currentDate">Last Updated</p>
     </footer>
     <script src="js/preston.js"></script>
   </body>
