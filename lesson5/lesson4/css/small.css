@@ -137,3 +137,11 @@ article{
   display: table;
   clear: both;
 }
+
+.active{
+  background: #FFFFFF;
+}
+
+.info{
+  padding: 10px;
+}
