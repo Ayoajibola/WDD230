@@ -2,8 +2,6 @@ header {
   background-color: #2e86ab;
 }
 
-
-
 #banner {
   width: 100%;
 }
@@ -62,7 +60,6 @@ nav ul li a:active {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-
 nav ul li a:hover {
   background-color: rgba(0, 0, 0, 0.2);
   color: #ffffff;
@@ -101,10 +98,8 @@ p {
   margin: 50px 20px 5px 5px;
 }
 
-.forecast {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+.five-day {
+  display: none;
 }
 
 .forecast div {
@@ -124,20 +119,20 @@ article {
   width: 100%;
   padding: 5px;
   margin: 10px auto;
-  border: 20px thick red;
 }
 
 .contact {
+  display: flex;
   width: 100%;
   margin: 10px;
   padding: 10px;
 }
 
 .contact-image {
-  width: 100%;
-  padding: 5px;
-  margin: 10px auto;
-  border: 20px thick red;
+  width: 75%;
+  float: right;
+  padding: 20px;
+  margin: 0 auto;
 }
 
 .clearfix :after {
@@ -152,4 +147,5 @@ article {
 
 footer {
   background-color: #2e86ab;
+  text-align: center;
 }

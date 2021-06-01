@@ -55,6 +55,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ffe8', end
     left: 10%;
   }
 
+  
+.five-day {
+  display: block;
+}
+
   .forecast {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
