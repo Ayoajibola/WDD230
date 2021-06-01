@@ -1,0 +1,153 @@
+header {
+  background-color: #2e86ab;
+}
+
+#banner {
+  width: 100%;
+}
+
+.logo-box {
+  padding: auto;
+  margin: 20px;
+}
+
+.banner-heading {
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.banner-heading h1 {
+  font-size: 1.8em;
+  padding: 2px;
+}
+
+.banner-heading h2 {
+  font-size: 1.1em;
+  padding: 2px;
+}
+
+nav {
+  background-color: #d68c45;
+}
+
+nav button {
+  margin: 0.2em 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5em;
+  color: #555;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav ul.hide {
+  display: none;
+}
+
+nav ul li a {
+  display: block;
+  margin: 0.8em 2%;
+  text-decoration: none;
+  color: #000;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul li a:active {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+}
+
+main {
+  background-color: #ffffff;
+}
+
+.herodiv {
+  width: 100%;
+}
+
+.heroImage {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+
+.weather-summary {
+  line-height: 2em;
+  width: 200px;
+  margin: 10px auto;
+  border-radius: 10px;
+  background: radial-gradient(#ffffff, #cce2a3);
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+.five-day {
+  width: 100%;
+  margin: 50px 20px 5px 5px;
+}
+
+.forecast {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.forecast div {
+  background: #d68c45;
+  border: 1px solid #080f0f;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+}
+
+article {
+  width: 100%;
+  padding: 20px;
+}
+
+.image-article {
+  width: 100%;
+  padding: 5px;
+  margin: 10px auto;
+  border: 20px thick red;
+}
+
+.contact {
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.contact-image {
+  width: 100%;
+  padding: 5px;
+  margin: 10px auto;
+  border: 20px thick red;
+}
+
+.clearfix :after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.active {
+  background: #ffffff;
+}
+
+footer {
+  background-color: #2e86ab;
+}

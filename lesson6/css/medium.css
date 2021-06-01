@@ -1,0 +1,63 @@
+@media screen and (min-width: 32.5em) {
+  nav button {
+    display: none;
+  }
+
+  nav{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f8ffe8+0,b7df2d+100 */
+background: #f8ffe8; /* Old browsers */
+background: -moz-linear-gradient(top,  #f8ffe8 0%, #b7df2d 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f8ffe8 0%,#b7df2d 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f8ffe8 0%,#b7df2d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ffe8', endColorstr='#b7df2d',GradientType=0 ); /* IE6-9 */
+
+  }
+
+  #banner{
+    display: flex;
+  }
+
+  .banner-heading{
+    float: right;
+  }
+
+  nav ul li {
+    float: left;
+  }
+
+  nav ul li a {
+    padding: 0.8rem 1rem;
+    margin: 5px auto;
+    border: none;
+  }
+
+  nav ul.hide {
+    display: block;
+  }
+
+  .herodiv {
+    width: 100%;
+    position: relative;
+  }
+
+  .heroImage {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 20px;
+  }
+
+  .weather-summary {
+    line-height: 2em;
+    width: 200px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+
+  .forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+}
