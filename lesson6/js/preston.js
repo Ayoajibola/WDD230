@@ -53,8 +53,7 @@ weekday[4] = "Thursday";
 weekday[5] = "Friday";
 weekday[6] = "Saturday";
 
-let fridy = weekday[d.getDay()];
-if (fridy == weekday[2]) {
-  document.getElementById("friday-only").innerHTML =
-    "Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.";
+let pancakeDay = weekday[d.getDay()];
+if (pancakeDay == weekday[5]) {
+  document.getElementById("friday-only").innerHTML = "Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.";
 }
