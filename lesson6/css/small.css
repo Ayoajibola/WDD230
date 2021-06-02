@@ -21,7 +21,7 @@ header {
 }
 
 .banner-heading h1 {
-  font-size: 1.8em;
+  font-size: 2em;
   padding: 2px;
 }
 
@@ -117,7 +117,7 @@ p {
 
 article {
   width: 100%;
-  padding: 20px;
+  padding: 10px;
 }
 
 .image-article {
@@ -130,13 +130,13 @@ article {
   display: flex;
   width: 100%;
   margin: 10px;
-  padding: 10px;
+  padding: 5px 10px 2px 10px;
 }
 
 .contact-image {
   width: 75%;
   float: right;
-  padding: 20px;
+  padding: 10px;
   margin: 0 auto;
 }
 
