@@ -1,0 +1,10 @@
+body {
+  display: block;
+  text-align: center;
+}
+
+body picture {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
+}
