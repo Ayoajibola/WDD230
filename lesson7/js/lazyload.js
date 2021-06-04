@@ -24,11 +24,13 @@ const imgOptions = {
 
 //check for browser support, then proceed.
 if ("IntersectionObserver" in window) {
+  
   const observer = new IntersectionObserver((items) => {
+    //OR: let observer = new IntersectionObserver(callback, options);
     items.forEach((item) => {
       if (item.isIntersecting) {
-        loadImages(item.target);
-        observer.unobserve(item.target);
+        loadImages(item.imagesToLoad);
+        observer.unobserve(item.imagesToLoad);
       }
     });
   }, imgOptions);
