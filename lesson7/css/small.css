@@ -1,9 +1,9 @@
-body {
+main {
   display: block;
   text-align: center;
 }
 
-body picture {
+main picture {
   position: relative;
   margin: 0 auto;
   padding: 20px;
