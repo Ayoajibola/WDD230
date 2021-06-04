@@ -8,3 +8,13 @@ main picture {
   margin: 0 auto;
   padding: 20px;
 }
+
+
+picture img[data-src] {
+  filter: blur(0.2em);
+}
+
+picture img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}

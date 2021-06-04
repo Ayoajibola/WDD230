@@ -1,44 +1,37 @@
-//Create the target to be observed
-let target = document.querySelector('#listItem');
+//Identify the set of target images.
 
+let imagesToLoad = document.querySelectorAll("img[data-src]");
 
+//Replace the path to the image.
 
-//Create the intersection observer
-let options = {
-    root: document.querySelector('#scrollArea'),
-    rootMargin: '0px',
-    threshold: 1.0
-  }
-  
-  let observer = new IntersectionObserver(callback, options);
+const loadImages = (image) => {
+  image.setAttribute("src", image.getAttribute("data-src"));
 
-  //Activate the observer.
-  observer.observe(target);
-
-  //Evaluate the entries to determine the right step
-  let callback = (entries, observer) => {
-    entries.forEach(entry => {
-      // Each entry describes an intersection change for one observed
-      // target element:
-      //   entry.boundingClientRect
-      //   entry.intersectionRatio
-      //   entry.intersectionRect
-      //   entry.isIntersecting
-      //   entry.rootBounds
-      //   entry.target
-      //   entry.time
-    });
+  //Remove the 'data-src' attribute after loading.
+  image.onload = () => {
+    image.removeAttribute("data-src");
   };
+};
 
+imagesToLoad.forEach((img) => {
+  loadImages(img);
+});
 
-  intersectionCallback(entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        let elem = entry.target;
-  
-        if (entry.intersectionRatio >= 0.75) {
-          intersectionCounter++;
-        }
+//check for browser support, then proceed.
+if ("IntersectionObserver" in window) {
+  const observer = new IntersectionObserver((items, observer) => {
+    items.forEach((item) => {
+      if (item.isIntersecting) {
+        loadImages(item.target);
+        observer.unobserve(item.target);
       }
     });
-  }
+  });
+  imagesToLoad.forEach((img) => {
+    observer.observe(img);
+  });
+} else {
+  imagesToLoad.forEach((img) => {
+    loadImages(img);
+  });
+}
