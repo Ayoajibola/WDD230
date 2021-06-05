@@ -55,6 +55,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ffe8', end
     left: 10%;
   }
 
+  .image-gallery {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  figure img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+  figure img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+  
   
 .five-day {
   display: block;
