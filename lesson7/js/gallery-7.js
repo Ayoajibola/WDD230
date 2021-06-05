@@ -39,3 +39,18 @@ if ("IntersectionObserver" in window) {
     loadImages(img);
   });
 }
+
+//Save the date of last browsing
+localStorage.setItem('lastdate', 'oldDate');
+//Retrieve the date of last browsing
+const lastDate = localStorage.getItem('lastdate');
+//determine current date
+
+//Compare last date with current date
+//Determine the difference
+//Display result
+
+const cat = localStorage.getItem('myCat');
+
+document.getElementsById("browsing-time").innerHTML="You are online";
+
