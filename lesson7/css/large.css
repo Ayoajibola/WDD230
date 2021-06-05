@@ -55,6 +55,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ffe8', end
   }
   
   figure img {
+    
     filter: blur(0em);
     transition: filter 0.5s;
   }
