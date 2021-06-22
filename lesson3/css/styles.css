@@ -1,5 +1,4 @@
 main {
- 
   margin: 0px;
   background-color: #cce2a3;
 }
@@ -27,7 +26,10 @@ h1 {
   margin: 5px 5px auto auto;
 }
 
-
+header {
+  display: flex;
+  align-content: center;
+}
 
 header nav {
   width: 80%;
@@ -59,8 +61,6 @@ header nav ul li a {
   font-size: 1.2em;
 }
 
-
-
 p {
   font-size: 1.1em;
   font-family: "Source Sans Pro", "Montserrat", "Sans-serif";
@@ -78,26 +78,6 @@ header {
   background-color: #2e86ab;
   text-align: center;
   padding: 0px;
-}
-
-#sitename {
-  margin: 20px;
-  grid-column: 1/2;
-}
-
-#sitepurpose {
-  margin: 20px;
-  grid-column: 2/3;
-}
-
-#sitedomain {
-  margin: 20px;
-  grid-column: 3/4;
-}
-
-#sitelogo {
-  margin: 20px;
-  grid-column: 4/5;
 }
 
 #color-scheme {
