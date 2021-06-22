@@ -1,7 +1,32 @@
 @media screen and (min-width: 32.5em) {
     main{
         display: grid;
-        grid-template-columns: 1fr 1fr;
-       
-    }
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+           }
+           #sitename {
+            margin: 20px;
+            grid-column: 1/2;
+            grid-row: 1/3;
+          }
+          
+          #sitepurpose {
+            margin: 20px;
+            grid-column: 2/3;
+            grid-row: 1/3;
+          }
+          
+          #sitedomain {
+            margin: 20px;
+            grid-column: 3/4;
+            grid-row: 1/2;
+          }
+          
+          #sitelogo {
+            margin: 20px;
+            grid-column: 3/4;
+            grid-row: 2/3;
+          }
+          
+
 }
