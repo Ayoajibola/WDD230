@@ -10,7 +10,7 @@
       content="This the weather report for Preston town"
     />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <!--<link rel="stylesheet" href="css/normalize.css" type="text/css">-->
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
     <link rel="stylesheet" href="css/small.css" type="text/css" />
     <link rel="stylesheet" href="css/medium.css" type="text/css" />
     <link rel="stylesheet" href="css/large.css" type="text/css" />
@@ -18,13 +18,13 @@
   </head>
   <body>
     <header>
-      <img class="logo-box" src="images/newlogox.jpg" alt="logo image" />
+      <img class="logo-box" src="images/newstarlogo.png" alt="logo image" />
       <h1>Preston Weather Site</h1>
       <h3>Your reliable guide</h3>
       <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776;</button>
 
-        <ul id="primaryNav" class="">
+        <ul id="primaryNav" class="hide">
           <li><a href="#">Home</a></li>
           <li class="active"><a href="preston.html">Preston</a></li>
           <li><a href="#">Soda Springs</a></li>
@@ -54,12 +54,19 @@
         </p>
         <img class="#" src="images/usbrGov.jpg" alt="#" />
       </article>
+      <div>
+        <h3>Contact Information</h3>
+        <p>Email</p>
+        <p>Phone</p>
+        <img class="#" src="images/prestonMap.png" alt="Map of Preston" />
+
+      </div>
     </main>
     <footer>
-      <h3>Contact Information</h3>
-      <p>Email</p>
-      <p>Phone</p>
-      <img class="#" src="images/prestonMap.png" alt="Map of Preston" />
+      &copy; <span id="lastModified"></span> &bull; Ayo Ajibola &bull; Lagos
+      Nigeria &bull;
+      <a href="https://www.byui.edu/online">BYU Online Learning</a>
+      <p id="currentDate">Last Updated</p>
     </footer>
     <script src="js/preston.js"></script>
   </body>

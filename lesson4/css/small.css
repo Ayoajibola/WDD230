@@ -1,4 +1,10 @@
+body {
+  width: 100%;
+}
+
+
 header {
+  text-align: center;
   background-color: #2e86ab;
 }
 
@@ -37,7 +43,9 @@ nav ul li a:hover {
 }
 
 main {
-  background-color: #cce2a3;
+  margin: 0px 10px;
+  padding: 5px;
+  background-color: #FFFFFF;
 }
 
 footer {
