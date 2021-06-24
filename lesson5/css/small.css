@@ -97,6 +97,7 @@ p {
 }
 
 .five-day {
+  display: none;
   margin: 150px 20px 20px 20px;
   
 }
