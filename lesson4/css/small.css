@@ -2,7 +2,6 @@ body {
   width: 100%;
 }
 
-
 header {
   text-align: center;
   background-color: #2e86ab;
@@ -45,7 +44,7 @@ nav ul li a:hover {
 main {
   margin: 0px 10px;
   padding: 5px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 footer {
