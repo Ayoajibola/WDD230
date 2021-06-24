@@ -52,7 +52,7 @@ nav ul li a {
   display: block;
   margin: 0.8em 2%;
   text-decoration: none;
-  color: #000;
+  color: #cce2a3;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 
@@ -61,7 +61,7 @@ nav ul li a:hover {
 }
 
 main {
-  background-color: #cce2a3;
+  background-color: #FFFFFF;
 }
 
 .herodiv {

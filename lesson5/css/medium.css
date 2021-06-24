@@ -20,38 +20,45 @@
     margin: 0px auto 0px auto;
   }
 
-  .herodiv{
+  .herodiv {
     width: 100%;
     position: relative;
   }
-    
-    .heroImage {
-      width: 700px;
-      align-content: center;
-      position: relative;
-      padding-left: 20px;
-    }
-  
-    .weather-summary {
-     
-      width: 200px;
-      height: 200px;
-      position: absolute;
-      top: 30px;
-      left: 20px;
-    }
-  
-    #banner {
-      display: flex;
-    }
-  
-    .banner-heading {
-      width: 600px;
-      float: right;
-      padding: 0.1em 2em 0.1em 15em;
-    }
-  
-    .forecast{
-      display: flex;
-    }
+
+  .heroImage {
+    width: 700px;
+    align-content: center;
+    position: relative;
+    padding-left: 20px;
+  }
+
+  .weather-summary {
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+  }
+
+  #weather-content {
+    padding: 10px;
+  }
+
+  #banner {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    grid-template-rows: auto;
+  }
+
+  .logo-box {
+    margin: 5px 5px 5px auto;
+  }
+
+  .banner-heading {
+    margin: 5px auto 5px 5px;
+    padding: 5px;
+  }
+
+  .forecast {
+    display: flex;
+  }
 }
