@@ -84,6 +84,10 @@ main {
   padding-left: 20px;
 }
 
+.heroImage img {
+  width: 100%;
+}
+
 .weather-summary {
   padding: 10px;
   line-height: 2em;

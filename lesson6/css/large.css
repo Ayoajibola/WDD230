@@ -37,11 +37,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ffe8', end
     grid-template-rows: 1fr;
   }
 
-  #banner{
-    display: flex;
+  #banner {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    grid-template-rows: auto;
   }
 
-  .banner-heading{
-    float: right;
+  .logo-box {
+margin: 5px 5px 5px auto;
+  }
+
+  .banner-heading {
+    margin: 5px auto 5px 5px;
+    padding: 5px;
   }
 }
