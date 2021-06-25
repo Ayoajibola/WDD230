@@ -61,23 +61,22 @@ nav ul li a:hover {
 }
 
 main {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .herodiv {
- 
   width: 200px;
   height: 200px;
   margin: 10px;
   padding-left: 5px;
-  margin: 10px 10px 10px 20px ;
+  margin: 10px 10px 10px 20px;
 }
 
 .heroImage {
   width: 100%;
   align-content: center;
   padding: 5px;
-  margin: 10px 10px 10px 20px ;
+  margin: 10px 10px 10px 20px;
 }
 
 .weather-summary {
@@ -99,7 +98,6 @@ p {
 .five-day {
   display: none;
   margin: 150px 20px 20px 20px;
-  
 }
 
 .forecast {
@@ -119,11 +117,11 @@ footer {
   background-color: #2e86ab;
 }
 
-article{
+article {
   padding: 10px;
 }
 
-.image-article{
+.image-article {
   width: 100%;
   height: 150px;
 }
@@ -139,10 +137,10 @@ article{
   clear: both;
 }
 
-.active{
-  background: #FFFFFF;
+.active {
+  background: #ffffff;
 }
 
-.info{
-  padding: 10px;
+footer {
+  text-align: center;
 }

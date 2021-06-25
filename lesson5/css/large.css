@@ -3,15 +3,28 @@
     display: none;
   }
 
-  nav ul li a {
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  nav ul li {
+    max-width: 1000px;
+    margin: 0 auto;
+   
     padding: 0.8rem 1rem;
   }
 
+  .info {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
   nav ul.hide {
     display: block;
   }
   .herodiv {
-    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
     position: relative;
   }
 
@@ -53,6 +66,7 @@ margin: 5px 5px 5px auto;
   }
 
   .forecast {
+    display: flex;
    float: right;
   }
 }
