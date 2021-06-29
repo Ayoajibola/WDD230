@@ -1,9 +1,9 @@
-let tempF = document.getElementById("tempF").value;
-let speed = document.getElementById("speed").value;
+let tempF = parseFloat(document.getElementById("tempF").textContent);
+let speed = parseFloat(document.getElementById("speed").textContent);
 
 let factor = windChill(tempF, speed);
 
-if (tempF <= 50 && speed >= 3) {
+if (tempF <= 50 && speed > 3) {
   document.getElementById("output").innerHTML = factor;
 } else {
   document.getElementById("output").innerHTML = "N/A";
