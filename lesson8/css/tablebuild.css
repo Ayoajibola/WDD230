@@ -14,7 +14,7 @@ table {
   border-collapse: collapse;
   margin: 5em auto;
   border: 0.5px grey;
-  box-shadow: 20px 20px;
+  box-shadow: 20px 20px grey;
 }
 
 th {
