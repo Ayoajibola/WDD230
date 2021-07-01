@@ -181,13 +181,13 @@ form fieldset {
 form legend {
   color: #445ba9;
   margin: 0 1rem;
-  padding: 0 .5rem
+  padding: 0 .5rem;
 }
 
 form label.top, form div {
   display: block;
-  padding-top: 2rem;
-  color: #9c2c13;
+  padding-bottom: 2em;
+  color: #d68c45;
   font-size: .8rem;
 }
 
@@ -210,6 +210,7 @@ form label.sbs {
   color: #555;
 }
 
+
 form input.submitBtn {
   border: none;
   background-color: #d68c45;
@@ -227,4 +228,18 @@ form label.top input:required {
 
 form label.top input:required:valid {
   border-left: green solid 6px;
+}
+
+.selection {
+  margin: 2px;
+  padding: 0.2rem;
+}
+
+#addInfo {
+  width: 90%;
+  margin: 5px auto;
+}
+
+textarea {
+  margin: 5%;
 }
