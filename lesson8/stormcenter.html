@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <meta
@@ -23,7 +23,7 @@
         <img class="logo-box" src="images/newstarlogo.png" alt="logo" />
         <div class="banner-heading">
           <h1>Team Weather Resource</h1>
-          <h3>Family and friends for better living</h3>
+          <h2>Family and friends for better living</h2>
         </div>
       </div>
       <nav class="clearfix">
@@ -31,103 +31,155 @@
 
         <ul id="primaryNav" class="hide">
           <li><a href="#">Home</a></li>
-          <li ><a href="https://ayoajibola.github.io/WDD230/lesson7/preston-7.html">Preston</a></li>
+          <li>
+            <a href="https://ayoajibola.github.io/WDD230/lesson7/preston-7.html"
+              >Preston</a
+            >
+          </li>
           <li><a href="#">Soda Springs</a></li>
           <li><a href="#">Fish Haven</a></li>
-          <li class="active"><a href="https://ayoajibola.github.io/WDD230/lesson8/stormcenter.html">Storm Center</a></li>
-          <li><a href="https://ayoajibola.github.io/WDD230/lesson7/gallery-7.html">Gallery</a></li>
+          <li class="active">
+            <a
+              href="https://ayoajibola.github.io/WDD230/lesson8/stormcenter.html"
+              >Storm Center</a
+            >
+          </li>
+          <li>
+            <a href="https://ayoajibola.github.io/WDD230/lesson7/gallery-7.html"
+              >Gallery</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
     <main>
-      <h2>Preston Idaho</h2>
-      <div class="herodiv">
-        <figure class="heroImage">
-          <img
-            src="images/large.jpg"
-            alt="franklin original"
-            sizes="100vw"
-            srcset="
-              images/large.jpg  1000w,
-              images/medium.jpg  500w,
-              images/small.jpg   300w
-            "
-          />
-          <figcaption>Franklin Original</figcaption>
-        </figure>
+      <h1>Storm Center</h1>
+      <form method="get" action="thanks.html">
+        <fieldset>
+          <legend>User information</legend>
+          <label class="top"
+            >First Name*<input type="text" name="fname" required
+          /></label>
+          <label class="top"
+            >Last Name*<input type="text" name="lname" required
+          /></label>
+          <label class="top"
+            >Phone<input type="tel" name="phone" placeholder="2348118881888"
+          /></label>
+          <label class="top"
+            >Email*<input
+              type="text"
+              name="email"
+              required
+              placeholder="someone@mail.com"
+          /></label>
+        </fieldset>
 
-        <section class="weather-summary">
-          <h2>Weather summary</h2>
-          <p>Currently: <span id="rainyStatus">Rainy</span></p>
-          <p>High: <span id="tempF">51</span></p>
-          <p>Wind Chill: <span id="output">12</span></p>
-          <p>Humidity: <span id="humidity">95%</span></p>
-          <p>Wind Speed: <span id="speed">12</span></p>
-        </section>
-      </div>
+        <fieldset>
+          <legend>Storm Information</legend>
 
-      <div class="five-day">
-        <h3>Five Day Forecast</h3>
-        <div class="forecast">
-          <div>
-            <h3>Monday</h3>
-            <p>Temperature: <span>30</span></p>
-            <p>Humidity: <span>25%</span></p>
-            <p>Wind Speed: <span>5Km/h NE</span></p>
-          </div>
-          <div>
-            <h3>Tuesday</h3>
-            <p>Temperature: <span>30</span></p>
-            <p>Humidity: <span>25%</span></p>
-            <p>Wind Speed: <span>5Km/h NE</span></p>
-          </div>
-          <div>
-            <h3>Wednesday</h3>
-            <p>Temperature: <span>30</span></p>
-            <p>Humidity: <span>25%</span></p>
-            <p>Wind Speed: <span>5Km/h NE</span></p>
-          </div>
-          <div>
-            <h3>Thursday</h3>
-            <p>Temperature: <span>30</span></p>
-            <p>Humidity: <span>25%</span></p>
-            <p>Wind Speed: <span>5Km/h NE</span></p>
-          </div>
-          <div>
-            <h3>Friday</h3>
-            <p>Temperature: <span>30</span></p>
-            <p>Humidity: <span>25%</span></p>
-            <p>Wind Speed: <span>5Km/h NE</span></p>
-          </div>
-        </div>
-      </div>
+          <label class="top">Storm date<input type="date" name="date" /></label>
 
-      <article>
-        <h3>Article Title</h3>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa aut
-          perspiciatis eligendi aliquam doloribus recusandae corrupti earum
-          veritatis pariatur, dicta modi facere dignissimos quidem reprehenderit
-          molestiae veniam excepturi. Minima, alias!
-        </p>
-        <img
-          class="image-article"
-          src="images/idahoFishing2.jpg"
-          alt="fishing"
-        />
-      </article>
+          <label class="top" for="storm">Storm type:<input type="list" list="stormType" id="storm" name="storm" placeholder="please choose"/></label>
+            
+
+          <datalist id="stormType">
+            <option value="Flash flood"></option>
+            <option value="Hail"></option>
+            <option value="Hurricane"></option>
+            <option value="Thunderstorm"></option>
+            <option value="Turnado"></option>
+          </datalist>
+       
+          <legend>Storm severity <em>(Choose one)</em></legend>
+          <div class="selection">
+            <label></label><input type="radio" id="1" name="time" value="1" checked>1</label>
+          </div>
+          <div class="selection">
+            <label></label><input type="radio" id="2" name="time" value="2" checked>2</label>
+          </div>
+          <div class="selection">
+            <label></label><input type="radio" id="3" name="time" value="3" checked>3</label>
+          </div>
+          <div class="selection">
+            <label></label><input type="radio" id="4" name="time" value="4" checked>4</label>
+          </div>
+          <div class="selection">
+            <label></label><input type="radio" id="5" name="time" value="5" checked>5</label>
+          </div>
+          <div class="selection">
+            <label></label><input type="radio" id="6" name="time" value="6" checked>6</label>
+          </div>
+          <div class="selection">
+            <label></label><input type="radio" id="7" name="time" value="7" checked>7</label>
+          </div>
+          <div class="selection">
+            <label></label><input type="radio" id="8" name="time" value="8" checked>8</label>
+          </div>
+          <div class="selection">
+            <label></label><input type="radio" id="9" name="time" value="9" checked>9</label>
+          </div>
+          <div class="selection">
+            <label></label><input type="radio" id="10" name="time" value="10" checked>10</label>
+          </div>
+         
+        
+        </fieldset>
+
+        <fieldset>
+          <legend>Storm Region</legend>
+
+          <label class="top"
+            >Storm Region
+            <select name="stormRegion">
+              <option>Please select &#9662;</option>
+              <option value="preston">Preston</option>
+              <option value="sodasprings">Soda Springs</option>
+              <option value="fishhaven">Fish Haven</option>
+            
+            </select>
+          </label>
+        
+        </fieldset>
+
+        <fieldset class="nestedfieldset">
+          <legend>User in-danger level <em>(Choose one)</em></legend>
+          <div class="selection">
+            <label></label><input type="radio" id="yes" name="time" value="yes" checked>Yes</label>
+          </div>
+          <div class="selection">
+            <label></label><input type="radio" id="maybe" name="time" value="maybe" checked>Maybe</label>
+          </div>
+          <div class="selection">
+            <label></label><input type="radio" id="no" name="time" value="no" checked>No</label>
+          </div>
+                
+        
+        </fieldset>
+
+        <fieldset class="nestedfieldset">
+          <legend>Please provide any other information</legend>
+          <textarea id="addInfo" name="addInfo" rows="4" cols="50">
+           
+            </textarea>
+                
+        
+        </fieldset>
+
+        <input type="submit" value="Please Send information" class="submitBtn" />
+      </form>
     </main>
-    <div class="contact">
-      <div>
-        <h3>Contact Information</h3>
-        <p>Email: <span>aji21001@byui.edu</span></p>
-        <p>Phone: <span>+234 (0) 811 888 1888</span></p>
-      </div>
+    <div class="contact"> 
+     
       <img
-        class="contact-image"
         src="images/prestonMap2.png"
         alt="Map of Preston"
       />
+      <div>   
+        <h3>Contact Information</h3>
+        <p>Email: <span>aji21001@byui.edu</span></p>
+        <p>Phone: <span>+234 (0) 811 888 1888</span></p>
+     </div>
     </div>
     <footer>
       &copy; <span id="lastModified"></span> &bull; Ayo Ajibola &bull; Lagos
