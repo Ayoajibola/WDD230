@@ -7,27 +7,19 @@ header {
 }
 
 #banner {
-  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: auto;
+  margin:2px;
 }
 
 .logo-box {
- 
-  padding: auto;
-  margin: 20px;
+margin: 2%;
+padding: 2px;
 }
 
-.banner-heading {
-  margin: 0 auto;
-  padding: 5px;
-}
-
-.banner-heading h1 {
-  font-size: 2em;
-  padding: 2px;
-}
-
-.banner-heading h2 {
-  font-size: 1.1em;
+.banner-heading{
+  margin: 2%;
   padding: 2px;
 }
 
@@ -76,7 +68,7 @@ main {
 
 main h1 {
   text-align: center;
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 .herodiv {
@@ -179,7 +171,7 @@ form {
 }
 
 form fieldset {
-  margin: 2rem 0;
+  margin: 1rem 0;
   border: 1px solid #445ba9;
   border-radius: 10px;
   padding: .5rem 2%;
@@ -193,7 +185,7 @@ form legend {
 
 form label.top, form div {
   display: block;
-  padding-top: 1rem;
+  padding-top: 2rem;
   color: #9c2c13;
   font-size: .8rem;
 }
