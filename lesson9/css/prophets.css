@@ -34,7 +34,9 @@ main div section {
 }
 
 footer {
+    background-color: black;
+    color: white;
     text-align: center;
     font: bold;
-    color: black;
+    padding: 2%;
 }
