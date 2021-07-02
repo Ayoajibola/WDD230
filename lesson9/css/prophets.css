@@ -1,0 +1,12 @@
+main div {
+    margin: 5%;
+}
+
+header {
+    text-align: center;
+   
+}
+
+header h1, h2 {
+    font-family: 'Ubuntu',sans-serif;
+}
