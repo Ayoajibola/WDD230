@@ -243,3 +243,7 @@ form label.top input:required:valid {
 textarea {
   margin: 5%;
 }
+
+#friday-only {
+  padding: 5px;
+}
