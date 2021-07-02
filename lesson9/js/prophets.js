@@ -31,7 +31,7 @@ fetch(requestURL)
       card.appendChild(p);
 
       p2.textContent ="Place of birth: " + prophets[i].birthplace;
-      card.appendChild(p);
+      card.appendChild(p2);
 
       card.appendChild(image);
 

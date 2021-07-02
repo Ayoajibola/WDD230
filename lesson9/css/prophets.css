@@ -4,16 +4,15 @@ main {
 }
 
 main div {
+    
     width: 90%;
     margin: 5%;
     padding: 2px;
 }
 
-header {
-    text-align: center;   
-}
 
 header h1, h2, p {
+    text-align: center; 
     font-family:'Ubuntu', sans-serif;
 }
 
@@ -22,6 +21,20 @@ main div img {
 }
 
 main div p {
+    margin: 2% auto;
     width: 70%;
     font-size: 1rem;
+}
+
+main div section {
+    background-color: moccasin;
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid grey;
+}
+
+footer {
+    text-align: center;
+    font: bold;
+    color: black;
 }
