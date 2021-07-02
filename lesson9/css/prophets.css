@@ -1,5 +1,12 @@
+
+main {
+    text-align: center;
+}
+
 main div {
+    width: 90%;
     margin: 5%;
+    padding: 2px;
 }
 
 header {
@@ -8,4 +15,8 @@ header {
 
 header h1, h2, p {
     font-family:'Ubuntu', sans-serif;
+}
+
+main div img {
+    width: 50%;
 }
