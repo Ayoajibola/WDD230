@@ -3,10 +3,9 @@ main div {
 }
 
 header {
-    text-align: center;
-   
+    text-align: center;   
 }
 
-header h1, h2 {
-    font-family: 'Ubuntu',sans-serif;
+header h1, h2, p {
+    font-family:'Ubuntu', sans-serif;
 }
