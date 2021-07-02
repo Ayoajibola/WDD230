@@ -1,8 +1,11 @@
 body {
+  margin: 0px auto;
+  
   font-family: "Ubuntu", "Prompt", "sans - serif";
 }
 
 header {
+  margin: 0px auto;
   background-color: #2e86ab;
 }
 
@@ -63,6 +66,7 @@ nav ul li a:hover {
 }
 
 main {
+  padding: 10px;
   background-color: #ffffff;
 }
 
@@ -72,13 +76,14 @@ main h1 {
 }
 
 .herodiv {
-  width: 100%;
+  
+  margin: 0px auto;
 }
 
 .heroImage {
   width: 100%;
   margin: 0 auto;
-  padding-left: 20px;
+  padding: 10px;
 }
 
 .weather-summary {
@@ -97,7 +102,7 @@ p {
 }
 
 .five-day {
-  width: 100%;
+ padding: 10px;
   margin: 50px 20px 5px 5px;
 }
 
@@ -114,7 +119,7 @@ p {
 }
 
 article {
-  width: 100%;
+ 
   padding: 10px;
 }
 
@@ -162,6 +167,7 @@ figure img {
 }
 
 footer {
+ 
   background-color: #2e86ab;
   text-align: center;
 }
