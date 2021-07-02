@@ -1,12 +1,13 @@
 
 main {
+    
     text-align: center;
 }
 
 main div {
-    
+   display: block;
     width: 90%;
-    margin: 5%;
+    margin: 2%;
     padding: 2px;
 }
 
@@ -33,10 +34,30 @@ main div section {
     border: 1px solid grey;
 }
 
+div.cards {
+       margin: 2px auto;
+}
+
 footer {
     background-color: black;
     color: white;
     text-align: center;
     font: bold;
     padding: 2%;
+}
+
+@media screen and (min-width: 32.5em) {
+    main div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 64em) {
+    main div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
 }
