@@ -20,3 +20,8 @@ header h1, h2, p {
 main div img {
     width: 50%;
 }
+
+main div p {
+    width: 70%;
+    font-size: 1rem;
+}
