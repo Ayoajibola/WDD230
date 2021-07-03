@@ -76,7 +76,7 @@ main h1 {
 }
 
 .herodiv {
-  margin: 0px auto;
+  
 }
 
 .heroImage {
@@ -86,13 +86,14 @@ main h1 {
 }
 
 .weather-summary {
-  padding: 10px;
-  line-height: 1.2em;
-  width: 200px;
+   padding: 5px;
+  line-height: 1em;
+  width: 150px;
   margin: 10px auto;
   border-radius: 10px;
   background: radial-gradient(#ffffff, #cce2a3);
 }
+
 
 /*-------------------5 day forecast--------------*/
 .five-day {
@@ -111,14 +112,18 @@ table {
   border-radius: 5px;
 }
 
+th{
+  background-color: #d68c45;
+}
+
 tr,
 th,
 td {
-  background-color: #d68c45;
+ 
   border: 1px solid grey;
   width: 150px;
-  margin: 2px;
-  padding: 2px;
+  margin: 5px;
+  padding: 5px;
 }
 
 /*-------------------5 day forecast--------------*/
