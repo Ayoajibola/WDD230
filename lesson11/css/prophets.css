@@ -1,0 +1,67 @@
+
+main {
+    
+    text-align: center;
+}
+
+main div {
+   display: block;
+    width: 90%;
+    margin: 2%;
+    padding: 2px;
+}
+
+
+header h1, h2, p {
+    text-align: center; 
+    font-family:'Ubuntu', sans-serif;
+}
+
+main div img {
+    width: 50%;
+}
+
+main div p {
+    margin: 2% auto;
+    width: 70%;
+    font-size: 1rem;
+}
+
+main div section {
+    background-color: moccasin;
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid grey;
+}
+
+div.cards {
+       margin: 2px auto;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font: bold;
+    padding: 2%;
+}
+
+@media screen and (min-width: 32.5em) {
+    main div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 64em) {
+    main div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    main div p {
+                font-size: 0.7rem;
+    }
+}

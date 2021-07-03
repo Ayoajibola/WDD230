@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="This the weather report for Preston town"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="css/small.css" type="text/css" />
+    <link rel="stylesheet" href="css/medium.css" type="text/css" />
+    <link rel="stylesheet" href="css/large.css" type="text/css" />
+    <title>Preston weather update</title>
+  </head>
+  <body>
+    <aside id="friday-only"></aside>
+    <header>
+      <div id="banner">
+        <img class="logo-box" src="images/newstarlogo.png" alt="logo" />
+        <div class="banner-heading">
+          <h1>Team Weather Resource</h1>
+          <p>Family and friends for better living</p>
+        </div>
+      </div>
+      <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+
+        <ul id="primaryNav" class="hide">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li>
+            <a href="https://ayoajibola.github.io/WDD230/lesson7/preston-7.html"
+              >Preston</a
+            >
+          </li>
+          <li><a href="#">Soda Springs</a></li>
+          <li><a href="#">Fish Haven</a></li>
+          <li>
+            <a
+              href="https://ayoajibola.github.io/WDD230/lesson8/stormcenter.html"
+              >Storm Center</a
+            >
+          </li>
+          <li>
+            <a href="https://ayoajibola.github.io/WDD230/lesson7/gallery-7.html"
+              >Gallery</a
+            >
+          </li>
+          <li>
+            <a href="https://wireframe.cc/pro/edit/454702"
+              >home-wireframes.html</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Welcome to our towns</h2>
+      <div class="herodiv">
+        <picture class="heroImage">
+          <img
+            src="images/heroImageSmall.jpg"
+            sizes="100vw"
+            alt="A view of Preston Idaho"
+            srcset="
+              images/heroImageSmall.jpg  400w,
+              images/heroImageMedium.jpg 700w,
+              images/heroImageLarge.jpg  900w
+            "
+          />
+        </picture>
+
+        <section class="weather-summary">
+          <h2>Weather summary</h2>
+          <p>Currently: <span id="rainyStatus">Rainy</span></p>
+          <p>High: <span id="tempF">51</span></p>
+          <p>Wind Chill: <span id="output">12</span></p>
+          <p>Humidity: <span id="humidity">95%</span></p>
+          <p>Wind Speed: <span id="speed">12</span></p>
+        </section>
+      </div>
+<div class="five-day">
+      <table >
+        <tr>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+
+        <tr>
+          <td>
+            Temperature: 30 <br />
+            Huidity: 25% <br />
+            Wind Speed: 5Km/h NE
+          </td>
+
+          <td>
+            Temperature: 30 <br />
+            Huidity: 25% <br />
+            Wind Speed: 5Km/h NE
+          </td>
+
+          <td>
+            Temperature: 30 <br />
+            Huidity: 25% <br />
+            Wind Speed: 5Km/h NE
+          </td>
+
+          <td>
+            Temperature: 30 <br />
+            Huidity: 25% <br />
+            Wind Speed: 5Km/h NE
+          </td>
+
+          <td>
+            Temperature: 30 <br />
+            Huidity: 25% <br />
+            Wind Speed: 5Km/h NE
+          </td>
+        </tr>
+      </table>
+    </div>
+      <div class="cards"></div>
+
+      <div class="contact">
+        <img src="images/newPrestonMap.jpg" alt="Map of Preston" />
+        <div>
+          <p>
+            <b>Contact Information:</b> Email: <span>aji21001@byui.edu</span>;
+            Phone: <span>+234 (0) 811 888 1888</span>
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      &copy; <span id="lastModified"></span> &bull; Ayo Ajibola &bull; Lagos
+      Nigeria &bull;
+      <a href="https://www.byui.edu/online">BYU Online Learning</a>
+      <p id="currentDate">Last Updated</p>
+    </footer>
+
+    <script src="js/js/preston.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Ubuntu", "Prompt", "sans - serif"],
+        },
+      });
+    </script>
+  </body>
+</html>
