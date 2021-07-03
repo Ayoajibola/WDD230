@@ -31,24 +31,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ffe8', end
     display: block;
   }
 
-  .forecast {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-  }
-
   .image-gallery {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
 
-  #banner{
-    display: flex;
-  }
-
-  .banner-heading{
-    float: right;
-  }
 
   figure img[data-src] {
     filter: blur(0.2em);

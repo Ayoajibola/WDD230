@@ -74,10 +74,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ffe8', end
   display: block;
 }
 
-  .forecast {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-  }
-
 }

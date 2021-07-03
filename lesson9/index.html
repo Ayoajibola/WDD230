@@ -38,7 +38,7 @@
           </li>
           <li><a href="#">Soda Springs</a></li>
           <li><a href="#">Fish Haven</a></li>
-          <li >
+          <li>
             <a
               href="https://ayoajibola.github.io/WDD230/lesson8/stormcenter.html"
               >Storm Center</a
@@ -58,84 +58,94 @@
       </nav>
     </header>
     <main>
-        <h2>Welcome to Team Resource</h2>
-        <div class="herodiv">
-          <picture class="heroImage">
-            <img
-              src="images/heroImage400.jpg" sizes="100vw"
-              alt="A view of Preston Idaho" 
-              srcset="images/heroImage400.jpg 400w, images/heroImage500.jpg 700w,
-              images/heroImage800L.jpg 900w"                    
-           >
-            <figcaption>Franklin Original</figcaption>
-          </picture>
-  
-          <section class="weather-summary">
-            <h2>Weather summary</h2>
-            <p>Currently: <span id="rainyStatus">Rainy</span></p>
-            <p>High: <span id="tempF">51</span></p>
-            <p>Wind Chill: <span id="output">12</span></p>
-            <p>Humidity: <span id="humidity">95%</span></p>
-            <p>Wind Speed: <span id="speed">12</span></p>
-          </section>
-        </div>
-  
-        <div class="five-day">
-          <h3>Five Day Forecast</h3>
-          <div class="forecast">
-            <div>
-              <h3>Monday</h3>
-              <p>Temperature: <span>30</span></p>
-              <p>Humidity: <span>25%</span></p>
-              <p>Wind Speed: <span>5Km/h NE</span></p>
-            </div>
-            <div>
-              <h3>Tuesday</h3>
-              <p>Temperature: <span>30</span></p>
-              <p>Humidity: <span>25%</span></p>
-              <p>Wind Speed: <span>5Km/h NE</span></p>
-            </div>
-            <div>
-              <h3>Wednesday</h3>
-              <p>Temperature: <span>30</span></p>
-              <p>Humidity: <span>25%</span></p>
-              <p>Wind Speed: <span>5Km/h NE</span></p>
-            </div>
-            <div>
-              <h3>Thursday</h3>
-              <p>Temperature: <span>30</span></p>
-              <p>Humidity: <span>25%</span></p>
-              <p>Wind Speed: <span>5Km/h NE</span></p>
-            </div>
-            <div>
-              <h3>Friday</h3>
-              <p>Temperature: <span>30</span></p>
-              <p>Humidity: <span>25%</span></p>
-              <p>Wind Speed: <span>5Km/h NE</span></p>
-            </div>
-          </div>
-        </div>
-   
-    </main>
-    <div class="contact"> 
-     
-      <img
-        src="images/prestonMap2.jpg"
-        alt="Map of Preston"
-      />
-      <div>   
-        <h3>Contact Information</h3>
-        <p>Email: <span>aji21001@byui.edu</span></p>
-        <p>Phone: <span>+234 (0) 811 888 1888</span></p>
-     </div>
+      <h2>Welcome to our towns</h2>
+      <div class="herodiv">
+        <picture class="heroImage">
+          <img
+            src="images/heroImageSmall.jpg"
+            sizes="100vw"
+            alt="A view of Preston Idaho"
+            srcset="
+              images/heroImageSmall.jpg  400w,
+              images/heroImageMedium.jpg 700w,
+              images/heroImageLarge.jpg  900w
+            "
+          />
+        </picture>
+
+        <section class="weather-summary">
+          <h2>Weather summary</h2>
+          <p>Currently: <span id="rainyStatus">Rainy</span></p>
+          <p>High: <span id="tempF">51</span></p>
+          <p>Wind Chill: <span id="output">12</span></p>
+          <p>Humidity: <span id="humidity">95%</span></p>
+          <p>Wind Speed: <span id="speed">12</span></p>
+        </section>
+      </div>
+<div class="five-day">
+      <table >
+        <tr>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+
+        <tr>
+          <td>
+            Temperature: 30 <br />
+            Huidity: 25% <br />
+            Wind Speed: 5Km/h NE
+          </td>
+
+          <td>
+            Temperature: 30 <br />
+            Huidity: 25% <br />
+            Wind Speed: 5Km/h NE
+          </td>
+
+          <td>
+            Temperature: 30 <br />
+            Huidity: 25% <br />
+            Wind Speed: 5Km/h NE
+          </td>
+
+          <td>
+            Temperature: 30 <br />
+            Huidity: 25% <br />
+            Wind Speed: 5Km/h NE
+          </td>
+
+          <td>
+            Temperature: 30 <br />
+            Huidity: 25% <br />
+            Wind Speed: 5Km/h NE
+          </td>
+        </tr>
+      </table>
     </div>
+      <div class="cards"></div>
+
+      <div class="contact">
+        <img src="images/newPrestonMap.jpg" alt="Map of Preston" />
+        <div>
+          <p>
+            <b>Contact Information:</b> Email: <span>aji21001@byui.edu</span>;
+            Phone: <span>+234 (0) 811 888 1888</span>
+          </p>
+        </div>
+      </div>
+    </main>
+
     <footer>
       &copy; <span id="lastModified"></span> &bull; Ayo Ajibola &bull; Lagos
       Nigeria &bull;
       <a href="https://www.byui.edu/online">BYU Online Learning</a>
       <p id="currentDate">Last Updated</p>
     </footer>
-     <script src="js/js/preston.js"></script>
+
+    <script src="js/js/preston.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
       WebFont.load({
